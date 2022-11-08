@@ -1,0 +1,19 @@
+{
+  "homepage": "http://Nourhaan-Atef.github.io/Twitter-Clone",
+  "name": "twitter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "watch": "npx tailwindcss -i ./style.css -o ./output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "tailwindcss": "^3.2.1"
+  }
+}
